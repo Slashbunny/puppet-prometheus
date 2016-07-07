@@ -1,0 +1,27 @@
+{
+    "name": "Slashbunny-prometheus",
+    "version": "0.1.0",
+    "author": "Slashbunny",
+    "summary": "Manages Prometheus time-series database and related tools",
+    "license": "GPL-3.0",
+    "source": "https://github.com/Slashbunny/puppet-prometheus",
+    "project_page": "https://github.com/Slashbunny/puppet-prometheus",
+    "issues_url": "https://github.com/Slashbunny/puppet-prometheus/issues",
+    "dependencies": [
+        {
+            "name":"puppetlabs-stdlib",
+            "version_requirement":">= 1.0.0"
+        },
+        {
+            "name":"puppetlabs-apt"
+        }
+    ],
+    "operatingsystem_support": [
+        {
+            "operatingsystem": "Ubuntu",
+            "operatingsystemrelease": [ "12.04", "14.04", "16.04" ]
+        }
+    ],
+    "data_provider": null
+}
+
